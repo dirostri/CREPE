@@ -2,9 +2,12 @@
 This the CREPE GitHub repository. 
 
 ### Launch on Binder
+Binder is a platform to execute reproducible analysis remotely. 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dirostri/CREPEBinder/main)
 
-### Running CREPE Locally
+After launching Binder, it will open a Jupyter notebook. Afterwards, click RStudio then follow the tutorial below. 
+
+### Running CREPE
 1. Open the App.R script in RStudio
 2. Click on the Run App icon located at the top of the app
 3. An html window will pop up with CREPE running
@@ -26,6 +29,8 @@ CREPE/MinimalReproducibleExample/TF_Cataloguing/Human_MRE.fasta
 6. An indicator will pop-up in the bottom right of the screen indicating progress; may take several minutes to complete. 
 7. A summary figure of the TF catalogue will be displayed after the analysis is complete. 
 8. Click on the 'Download TF Catalogue' to download cataloguing results. 
+
+Note: If you are using Binder, these results will be available to download directly from the Jupyer notebook (the initial tab where RStudio was opened from). Right click, then click on download on the desired outputs. 
 
 #### TF Annotation
 This function parses gene trees (in Newick format) to assign putative TFs the name of its nearest neighbor. The intention is to provide a name to TFs originating from non-model organisms. 
